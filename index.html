@@ -12,8 +12,14 @@
     <link rel="icon" href="./assets/images/icon.png" />
 
     <!-- owl-carousel -->
-    <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link
+      rel="stylesheet"
+      href="assets/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css"
+    />
 
     <!-- Bagian Local Styling CSS -->
     <link rel="stylesheet" href="css/style.css" />
@@ -31,448 +37,972 @@
     />
   </head>
   <body>
-<!-- [Yoga] -->
-  <section>
-      <section id="carousel">
-        <div class="container py-5">
-        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-          <div class="carousel-inner mx-auto" id="carousel-body" >
-            <div class="carousel-item active ">
-              <img src="assets/images/1.png" class="d-block w-100" alt="...">
+    <!-- [Rizki] - [Bagian Header Navigation] -->
+    <header class="position-fixed top-0 w-100 bg-light">
+      <div class="container mx-auto w-100">
+        <nav class="navbar navbar-expand-lg py-3 d-flex align-items-center">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="assets/images/nav_logo_binar_purple.svg"
+              alt="Binar Nav Logo"
+          /></a>
+          <div class="collapse navbar-collapse">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 d-flex align-items-center"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link fs-6 dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Program Binar
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">BinarGO!</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Binar Bootcamp</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Binar Insight</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link fs-6 dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Binar Untuk Corporate
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Digital Talent Accelerator</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Rekrut Talenta Digital</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">BINAR PRO</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6" href="#job_connect">Job Connect</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6" href="#literasi">Literasi</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link fs-6 dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Tentang Binar
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Tentang Kami</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Promo & Diskon</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Karier</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="my-learning nav-link fs-6 px-4 rounded-3 text-white"
+                  href="#"
+                  >My Learning
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- [Rizki] - [Bagian Main Section / Content] -->
+    <main>
+      <!-- [Rizki] - [Bagian Hero Section] -->
+      <section id="hero-section" class="w-100">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md-7">
+              <div class="hero-section-text">
+                <div class="hero-section-funfact text-white">
+                  <p>
+                    <i
+                      class="fa fa-search p-2 text-dark bg-light rounded-3"
+                      aria-hidden="true"
+                    ></i>
+                    Top 50 Most Promising EdTech in Southeast Asia
+                  </p>
+                </div>
+                <h1 class="hero-section-heading text-white fw-bold">
+                  BINAR Mencetak
+                  <span class="hero-seaction-span">180.000+</span> Talenta
+                  Digital dan Menyalurkan ke 120+&nbsp;Hiring Partner Ternama
+                </h1>
+                <div class="hero-section-direction w-100">
+                  <div class="row mb-3 rounded-3 p-3">
+                    <div
+                      class="col-2 mx-1 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        class="text-light m-0 text-dark text-decoration-none d-inline-block py-2 px-4 rounded-2 fw-medium"
+                        href="#konsultasi"
+                      >
+                        Konsultasi
+                      </a>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                      <p class="text-light m-0">
+                        Tanya seputar bootcamp dengan tim Academy Consultant
+                        BINAR
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row rounded-3 p-3">
+                    <div
+                      class="col-2 mx-1 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        class="text-light m-0 text-dark text-decoration-none d-inline-block py-2 px-4 rounded-2 fw-medium"
+                        href="#berpartner"
+                      >
+                        Berpartner
+                      </a>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                      <p class="text-light m-0">
+                        Jadikan bisnismu selangkah di depan bertransformasi
+                        digital bareng BINAR
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="assets/images/2.png" class="d-block w-100" alt="...">
+            <img
+              src="assets/images/Hero Image-p-1080.png"
+              alt="Hero Image"
+              class="img-fluid col-md-5 z-3"
+            />
+          </div>
+        </div>
+        <img
+          src="assets/images/Logo-Binar-Background-Transparent.svg"
+          alt="Binar Transparant Logo"
+          class="position-absolute bottom-0 end-0 z-2 object-fit-fill"
+          style="height: 80%"
+        />
+      </section>
+
+      <!-- [Rizki] - [Bagian Short Info About Binar Section] -->
+      <section
+        id="shortinfo-section"
+        class="d-flex justify-content-center align-items-center py-5 text-center"
+      >
+        <div class="container">
+          <h2 class="shortinfo-section-heading">
+            Sejak 2017 BINAR Telah Memberikan Dampak di Indonesia
+          </h2>
+          <p class="shortinfo-section-subtitle">
+            Data yang disajikan menggunakan data kumulatif selama 2017-2023
+          </p>
+          <div class="row justify-content-center align-items-center">
+            <div class="col min-width-0 max-width-100" style="max-width: 184px">
+              <img src="assets/images/Binar-Impact-icons-1.svg" />
+              <div class="item-highlight mb-1">
+                <p class="fs-4 m-0">180.000+</p>
+              </div>
+              <div class="item-text fs-6 lh-sm text-secondary">
+                total student dalam semua produk BINAR
+              </div>
+            </div>
+            <div class="col min-width-0 max-width-100" style="max-width: 184px">
+              <img src="assets/images/Binar-Impact-icons-2.svg" />
+              <div class="item-highlight mb-1">
+                <p class="fs-4 m-0">98%</p>
+              </div>
+              <div class="item-text fs-6 lh-sm text-secondary">
+                student lulus dari BINAR Bootcamp
+              </div>
+            </div>
+            <div class="col min-width-0 max-width-100" style="max-width: 184px">
+              <img src="assets/images/Binar-Impact-icons-3.svg" />
+              <div class="item-highlight mb-1">
+                <p class="fs-4 m-0">1100+</p>
+              </div>
+              <div class="item-text fs-6 lh-sm text-secondary">
+                total partner yang merekrut alumni BINAR
+              </div>
+            </div>
+            <div class="col min-width-0 max-width-100" style="max-width: 184px">
+              <img src="assets/images/Binar-Impact-icons-4.svg" />
+              <div class="item-highlight mb-1">
+                <p class="fs-4 m-0">&lt;60 Hari</p>
+              </div>
+              <div class="item-text fs-6 lh-sm text-secondary">
+                alumni diterima kerja
+              </div>
+            </div>
+            <div class="col min-width-0 max-width-100" style="max-width: 184px">
+              <img src="assets/images/Binar-Impact-icons-5.svg" />
+              <div class="item-highlight mb-1">
+                <p class="fs-4 m-0">78%</p>
+              </div>
+              <div class="item-text fs-6 lh-sm text-secondary">
+                kenaikan gaji
+              </div>
             </div>
           </div>
-          <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon  position-absolute start-0 border-dark bg-dark" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-            <span class="carousel-control-next-icon  position-absolute end-0 border-dark bg-dark"  aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <a
+            id="download_report"
+            href="https://www.binaracademy.com/blog/binar-impact-report-2023"
+            target="_blank"
+            class="text-decoration-none rounded-3 p-3"
+            ><div
+              class="d-flex align-items-center gap-2 justify-content-center"
+            >
+              <img
+                src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce0e20433488a60307c19c_download.svg"
+              />
+              <h5 class="fw-semibold">Download BINAR Impact 2023</h5>
+            </div></a
+          >
         </div>
-      </div>
+      </section>
+
+      <!-- [Yoga] -->
+      <section id="carousel">
+        <div class="container py-5">
+          <div
+            id="carouselExampleControlsNoTouching"
+            class="carousel slide"
+            data-bs-touch="false"
+            data-bs-interval="false"
+          >
+            <div class="carousel-inner mx-auto" id="carousel-body">
+              <div class="carousel-item active">
+                <img
+                  src="assets/images/1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/2.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon position-absolute start-0 border-dark bg-dark"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon position-absolute end-0 border-dark bg-dark"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </section>
       <!-- End Carousel section -->
       <section id="course-section">
         <div class="container">
           <div class="text-center">
             <h2>Jelajahi Course</h2>
-            <p>Berbagai macam pilihan course dengan metode belajar yang cocok buat kamu</p>
-            <br>
+            <p>
+              Berbagai macam pilihan course dengan metode belajar yang cocok
+              buat kamu
+            </p>
+            <br />
             <!-- owl carousel -->
             <div id="owl-demo" class="owl-carousel owl-theme">
-                <div class="item"><div type="button" id="btn-carousel">New Course</div></div>
-                <div class="item"><div type="button" id="btn-carousel">Business Intelligence</div></div>
-                <div class="item"><div type="button" id="btn-carousel">Product Management</div></div>
-                <div class="item"><div type="button" id="btn-carousel">Mobile Development</div></div>
-                <div class="item"><div type="button" id="btn-carousel">Web Development</div></div>
-                <div class="item"><div type="button" id="btn-carousel">UI/UX Design</div></div>
-                <div class="item"><div type="button" id="btn-carousel">Business Intelligence</div></div>
-                <div class="item"><div type="button" id="btn-carousel">Product Management</div></div>
+              <div class="item">
+                <div type="button" id="btn-carousel">New Course</div>
               </div>
+              <div class="item">
+                <div type="button" id="btn-carousel">Business Intelligence</div>
+              </div>
+              <div class="item">
+                <div type="button" id="btn-carousel">Product Management</div>
+              </div>
+              <div class="item">
+                <div type="button" id="btn-carousel">Mobile Development</div>
+              </div>
+              <div class="item">
+                <div type="button" id="btn-carousel">Web Development</div>
+              </div>
+              <div class="item">
+                <div type="button" id="btn-carousel">UI/UX Design</div>
+              </div>
+              <div class="item">
+                <div type="button" id="btn-carousel">Business Intelligence</div>
+              </div>
+              <div class="item">
+                <div type="button" id="btn-carousel">Product Management</div>
+              </div>
+            </div>
             <!-- end owl carousel -->
             <!-- Cards Groups-->
             <div class="row row-cols-1 row-cols-md-3 g-4 text-start">
-                <!-- cards 1 -->
+              <!-- cards 1 -->
               <div class="col" id="course-card">
                 <div class="card h-100">
-                    <img src="https://assets-global.website-files.com/6100d0111a4ed76bc1b9fd54/65d82f6c19b91e22f737d6b2_CDP%20Bagus%20MAR24%20-%20Native%20Banner.png" loading="lazy" alt="" sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw">
-                    <div id="web-binar">WEBINAR</div>
-                    <div class="card-body">
-                        <div class="course-date">
-                            <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62af4d5b91fe2c6f1e943b7c_Date.svg" loading="lazy" alt="">
-                            <p>2 Maret 2024</p>
-                        </div>
-                        <h2 class="card-title">Get Your First 10,000 USD from Freelancing on Upwork</h2>
-                        <p class="card-text">Unlock freelance success with insights from Bagas, who earned $10,000 on Upwork. Let's boost our skills and achievements together!</p>
-                        <div class="card-price">
-                            <div class="disc">Rp350.000</div>
-                            <p>Rp299.000</p>
-                        </div>
+                  <img
+                    src="https://assets-global.website-files.com/6100d0111a4ed76bc1b9fd54/65d82f6c19b91e22f737d6b2_CDP%20Bagus%20MAR24%20-%20Native%20Banner.png"
+                    loading="lazy"
+                    alt=""
+                    sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw"
+                  />
+                  <div id="web-binar">WEBINAR</div>
+                  <div class="card-body">
+                    <div class="course-date">
+                      <img
+                        src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62af4d5b91fe2c6f1e943b7c_Date.svg"
+                        loading="lazy"
+                        alt=""
+                      />
+                      <p>2 Maret 2024</p>
                     </div>
+                    <h2 class="card-title">
+                      Get Your First 10,000 USD from Freelancing on Upwork
+                    </h2>
+                    <p class="card-text">
+                      Unlock freelance success with insights from Bagas, who
+                      earned $10,000 on Upwork. Let's boost our skills and
+                      achievements together!
+                    </p>
+                    <div class="card-price">
+                      <div class="disc">Rp350.000</div>
+                      <p>Rp299.000</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- card 2 -->
               <div class="col" id="course-card">
                 <div class="card h-100">
-                    <img src="https://assets-global.website-files.com/6100d0111a4ed76bc1b9fd54/65d82f6c19b91e22f737d6b2_CDP%20Bagus%20MAR24%20-%20Native%20Banner.png" loading="lazy" alt="" sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw">
-                    <div id="web-binar">WEBINAR</div>
-                    <div class="card-body">
-                        <div class="course-date">
-                            <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62af4d5b91fe2c6f1e943b7c_Date.svg" loading="lazy" alt="">
-                            <p>2 Maret 2024</p>
-                        </div>
-                        <h2 class="card-title">Get Your First 10,000 USD from Freelancing on Upwork</h2>
-                        <p class="card-text">Unlock freelance success with insights from Bagas, who earned $10,000 on Upwork. Let's boost our skills and achievements together!</p>
-                        <div class="card-price">
-                            <div class="disc">Rp350.000</div>
-                            <p>Rp299.000</p>
-                        </div>
+                  <img
+                    src="https://assets-global.website-files.com/6100d0111a4ed76bc1b9fd54/65d82f6c19b91e22f737d6b2_CDP%20Bagus%20MAR24%20-%20Native%20Banner.png"
+                    loading="lazy"
+                    alt=""
+                    sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw"
+                  />
+                  <div id="web-binar">WEBINAR</div>
+                  <div class="card-body">
+                    <div class="course-date">
+                      <img
+                        src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62af4d5b91fe2c6f1e943b7c_Date.svg"
+                        loading="lazy"
+                        alt=""
+                      />
+                      <p>2 Maret 2024</p>
                     </div>
+                    <h2 class="card-title">
+                      Get Your First 10,000 USD from Freelancing on Upwork
+                    </h2>
+                    <p class="card-text">
+                      Unlock freelance success with insights from Bagas, who
+                      earned $10,000 on Upwork. Let's boost our skills and
+                      achievements together!
+                    </p>
+                    <div class="card-price">
+                      <div class="disc">Rp350.000</div>
+                      <p>Rp299.000</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- card 3 -->
-            <div class="col" id="course-card">
+              <div class="col" id="course-card">
                 <div class="card h-100">
-                    <img src="https://assets-global.website-files.com/6100d0111a4ed76bc1b9fd54/65d82f6c19b91e22f737d6b2_CDP%20Bagus%20MAR24%20-%20Native%20Banner.png" loading="lazy" alt="" sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw">
-                    <div id="web-binar">WEBINAR</div>
-                    <div class="card-body">
-                        <div class="course-date">
-                            <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62af4d5b91fe2c6f1e943b7c_Date.svg" loading="lazy" alt="">
-                            <p>2 Maret 2024</p>
-                        </div>
-                        <h2 class="card-title">Get Your First 10,000 USD from Freelancing on Upwork</h2>
-                        <p class="card-text">Unlock freelance success with insights from Bagas, who earned $10,000 on Upwork. Let's boost our skills and achievements together!</p>
-                        <div class="card-price">
-                            <div class="disc">Rp350.000</div>
-                            <p>Rp299.000</p>
-                        </div>
+                  <img
+                    src="https://assets-global.website-files.com/6100d0111a4ed76bc1b9fd54/65d82f6c19b91e22f737d6b2_CDP%20Bagus%20MAR24%20-%20Native%20Banner.png"
+                    loading="lazy"
+                    alt=""
+                    sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw"
+                  />
+                  <div id="web-binar">WEBINAR</div>
+                  <div class="card-body">
+                    <div class="course-date">
+                      <img
+                        src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62af4d5b91fe2c6f1e943b7c_Date.svg"
+                        loading="lazy"
+                        alt=""
+                      />
+                      <p>2 Maret 2024</p>
                     </div>
+                    <h2 class="card-title">
+                      Get Your First 10,000 USD from Freelancing on Upwork
+                    </h2>
+                    <p class="card-text">
+                      Unlock freelance success with insights from Bagas, who
+                      earned $10,000 on Upwork. Let's boost our skills and
+                      achievements together!
+                    </p>
+                    <div class="card-price">
+                      <div class="disc">Rp350.000</div>
+                      <p>Rp299.000</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- card 4 -->
-            <div class="col" id="course-card">
+              <div class="col" id="course-card">
                 <div class="card h-100">
-                    <img src="https://assets-global.website-files.com/6100d0111a4ed76bc1b9fd54/65d82f6c19b91e22f737d6b2_CDP%20Bagus%20MAR24%20-%20Native%20Banner.png" loading="lazy" alt="" sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw">
-                    <div id="web-binar">WEBINAR</div>
-                    <div class="card-body">
-                        <div class="course-date">
-                            <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62af4d5b91fe2c6f1e943b7c_Date.svg" loading="lazy" alt="">
-                            <p>2 Maret 2024</p>
-                        </div>
-                        <h2 class="card-title">Get Your First 10,000 USD from Freelancing on Upwork</h2>
-                        <p class="card-text">Unlock freelance success with insights from Bagas, who earned $10,000 on Upwork. Let's boost our skills and achievements together!</p>
-                        <div class="card-price">
-                            <div class="disc">Rp350.000</div>
-                            <p>Rp299.000</p>
-                        </div>
+                  <img
+                    src="https://assets-global.website-files.com/6100d0111a4ed76bc1b9fd54/65d82f6c19b91e22f737d6b2_CDP%20Bagus%20MAR24%20-%20Native%20Banner.png"
+                    loading="lazy"
+                    alt=""
+                    sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw"
+                  />
+                  <div id="web-binar">WEBINAR</div>
+                  <div class="card-body">
+                    <div class="course-date">
+                      <img
+                        src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62af4d5b91fe2c6f1e943b7c_Date.svg"
+                        loading="lazy"
+                        alt=""
+                      />
+                      <p>2 Maret 2024</p>
                     </div>
+                    <h2 class="card-title">
+                      Get Your First 10,000 USD from Freelancing on Upwork
+                    </h2>
+                    <p class="card-text">
+                      Unlock freelance success with insights from Bagas, who
+                      earned $10,000 on Upwork. Let's boost our skills and
+                      achievements together!
+                    </p>
+                    <div class="card-price">
+                      <div class="disc">Rp350.000</div>
+                      <p>Rp299.000</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- card 5 -->
-            <div class="col" id="course-card">
+              <div class="col" id="course-card">
                 <div class="card h-100">
-                    <img src="https://assets-global.website-files.com/6100d0111a4ed76bc1b9fd54/65d82f6c19b91e22f737d6b2_CDP%20Bagus%20MAR24%20-%20Native%20Banner.png" loading="lazy" alt="" sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw">
-                    <div id="web-binar">WEBINAR</div>
-                    <div class="card-body">
-                        <div class="course-date">
-                            <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62af4d5b91fe2c6f1e943b7c_Date.svg" loading="lazy" alt="">
-                            <p>2 Maret 2024</p>
-                        </div>
-                        <h2 class="card-title">Get Your First 10,000 USD from Freelancing on Upwork</h2>
-                        <p class="card-text">Unlock freelance success with insights from Bagas, who earned $10,000 on Upwork. Let's boost our skills and achievements together!</p>
-                        <div class="card-price">
-                            <div class="disc">Rp350.000</div>
-                            <p>Rp299.000</p>
-                        </div>
+                  <img
+                    src="https://assets-global.website-files.com/6100d0111a4ed76bc1b9fd54/65d82f6c19b91e22f737d6b2_CDP%20Bagus%20MAR24%20-%20Native%20Banner.png"
+                    loading="lazy"
+                    alt=""
+                    sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 28vw"
+                  />
+                  <div id="web-binar">WEBINAR</div>
+                  <div class="card-body">
+                    <div class="course-date">
+                      <img
+                        src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62af4d5b91fe2c6f1e943b7c_Date.svg"
+                        loading="lazy"
+                        alt=""
+                      />
+                      <p>2 Maret 2024</p>
                     </div>
+                    <h2 class="card-title">
+                      Get Your First 10,000 USD from Freelancing on Upwork
+                    </h2>
+                    <p class="card-text">
+                      Unlock freelance success with insights from Bagas, who
+                      earned $10,000 on Upwork. Let's boost our skills and
+                      achievements together!
+                    </p>
+                    <div class="card-price">
+                      <div class="disc">Rp350.000</div>
+                      <p>Rp299.000</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
             </div>
             <!-- End Card Groups -->
           </div>
         </div>
         <!-- button -->
-        <div class="container d-flex align-items-center justify-content-center mb-5">
-          <button class="btn btn-warning mt-5 text-center" ><h5>Lihat Semua Course</h5></button>
+        <div
+          class="container d-flex align-items-center justify-content-center mb-5"
+        >
+          <button class="btn btn-warning mt-5 text-center">
+            <h5>Lihat Semua Course</h5>
+          </button>
         </div>
         <!-- end button -->
       </section>
       <!-- Learning Method -->
       <section id="learning-method-section">
         <div class="container pb-5">
-            <div class="heading text-center py-5" id="txt-learning">
-                <h2 >Pilih Metode Belajar yang Kamu Sukai</h2>
-                <p>Mulai dari kelas belajar intensif, webinar, sampai on-demand digital learning, Binar punya kelas buat kamu</p>
-            </div>
+          <div class="heading text-center py-5" id="txt-learning">
+            <h2>Pilih Metode Belajar yang Kamu Sukai</h2>
+            <p>
+              Mulai dari kelas belajar intensif, webinar, sampai on-demand
+              digital learning, Binar punya kelas buat kamu
+            </p>
+          </div>
           <!-- grid -->
           <div class="row row-cols-4 mb-5" id="row-learing">
-            <div class="col" ></div>
-            <div class="col" id="img-learning"><img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/615683217453ea30c5482ac7_Binar%20Bootcamp%20Logo%20White.svg" alt=""></div>
-            <div class="col" id="img-learning"><img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/6156825adc67c6e75be3ba60_Binar%20Insight%20Logo%20White.svg"></div>
-            <div class="col" id="img-learning"><img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/6156823c52176f57248261db_Binar%20Go%20Logo%20White.svg" alt=""></div>
+            <div class="col"></div>
+            <div class="col" id="img-learning">
+              <img
+                src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/615683217453ea30c5482ac7_Binar%20Bootcamp%20Logo%20White.svg"
+                alt=""
+              />
+            </div>
+            <div class="col" id="img-learning">
+              <img
+                src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/6156825adc67c6e75be3ba60_Binar%20Insight%20Logo%20White.svg"
+              />
+            </div>
+            <div class="col" id="img-learning">
+              <img
+                src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/6156823c52176f57248261db_Binar%20Go%20Logo%20White.svg"
+                alt=""
+              />
+            </div>
           </div>
-          <div class=" " id="hr"> </div>
+          <div class=" " id="hr"></div>
           <div class="row row-cols-4 mt-4 mb-3" id="row-learing">
-            <div class="col" id="txt-learning" ><h5>FORMAT</h5></div>
+            <div class="col" id="txt-learning"><h5>FORMAT</h5></div>
             <div class="col" id="txt-learning"><p>Belajar Intensif</p></div>
             <div class="col" id="txt-learning"><p>Webinar</p></div>
             <div class="col" id="txt-learning"><p>Belajar Mandiri</p></div>
           </div>
-        <div class=" " id="hr"> </div>
+          <div class=" " id="hr"></div>
           <div class="row row-cols-4 mt-4 mb-3" id="row-learing">
-            <div class="col" id="txt-learning" ><h5>JADWAL</h5></div>
+            <div class="col" id="txt-learning"><h5>JADWAL</h5></div>
             <div class="col" id="txt-learning"><p>Part-time</p></div>
-            <div class="col" id="txt-learning"><p>Berbagai pilihan webinar seusai <br>jam kerja<p></div>
-            <div class="col" id="txt-learning"><p>Bebas atur sesuai waktu kamu</p></div>
+            <div class="col" id="txt-learning">
+              <p>Berbagai pilihan webinar seusai <br />jam kerja</p>
+              <p></p>
+            </div>
+            <div class="col" id="txt-learning">
+              <p>Bebas atur sesuai waktu kamu</p>
+            </div>
           </div>
-        <div class=" " id="hr"> </div>
+          <div class=" " id="hr"></div>
           <div class="row row-cols-4 mt-4 mb-3" id="row-learing">
-            <div class="col" id="txt-learning" ><h5>DURASI</h5></div>
-            <div class="col" id="txt-learning"><p>Kelas Intensif selama 4-6 bulan, dengan pertemuan 3x seminggu</p></div>
+            <div class="col" id="txt-learning"><h5>DURASI</h5></div>
+            <div class="col" id="txt-learning">
+              <p>
+                Kelas Intensif selama 4-6 bulan, dengan pertemuan 3x seminggu
+              </p>
+            </div>
             <div class="col" id="txt-learning"><p>2-3 jam</p></div>
-            <div class="col" id="txt-learning"><p>Pilih akses ke berbagai courses sesuai kebutuhan, bisa bulanan hingga tahunan.</p></div>
-          </div>
-        <div class=" " id="hr"> </div>
-          <div class="row row-cols-4 mt-4 mb-3" id="row-learing">
-            <div class="col" id="txt-learning" ><h5>FORMAT BELAJAR</h5></div>
             <div class="col" id="txt-learning">
-                <ul id="ul-learning-method">
-                    <li>
-                        Diskusi bersama praktisi
-                    </li>
-                    <li>
-                        Video
-                    </li>
-                    <li>
-                        Materi bacaan
-                    </li>
-                    <li>
-                        Quiz
-                    </li>
-                    <li>
-                        Project Based Learning
-                    </li>
-                    <li>
-                        Studi kasus dari dunia nyata
-                    </li>
-                    <li>
-                        Bimbingan membuat portfolio
-                    </li>
-                </ul>
-            </div>
-            <div class="col" id="txt-learning">
-                <ul id="ul-learning-method">
-                    <li>Diskusi langsung dengan praktisi</li>
-                    <li>Studi kasus dari praktisi</li>
-                </ul>
-            </div>
-            <div class="col" id="txt-learning">
-                <ul id="ul-learning-method">
-                    <li>
-                        Video pembelajaran yang asyik
-                    </li>
-                    <li>
-                        Materi bacaan
-                    </li>
-                    <li>
-                        Kuis
-                    </li>
-                </ul>
+              <p>
+                Pilih akses ke berbagai courses sesuai kebutuhan, bisa bulanan
+                hingga tahunan.
+              </p>
             </div>
           </div>
-          <div class=" " id="hr"> </div>
+          <div class=" " id="hr"></div>
           <div class="row row-cols-4 mt-4 mb-3" id="row-learing">
-            <div class="col" id="txt-learning" >
-                <div id="wrap-text-new-update-h5">
-                  <h5>PAKET</h5>
-                  <div id="wrap-new-update">
-                    <div id="new-update">New Update</div>
-                  </div>
+            <div class="col" id="txt-learning"><h5>FORMAT BELAJAR</h5></div>
+            <div class="col" id="txt-learning">
+              <ul id="ul-learning-method">
+                <li>Diskusi bersama praktisi</li>
+                <li>Video</li>
+                <li>Materi bacaan</li>
+                <li>Quiz</li>
+                <li>Project Based Learning</li>
+                <li>Studi kasus dari dunia nyata</li>
+                <li>Bimbingan membuat portfolio</li>
+              </ul>
+            </div>
+            <div class="col" id="txt-learning">
+              <ul id="ul-learning-method">
+                <li>Diskusi langsung dengan praktisi</li>
+                <li>Studi kasus dari praktisi</li>
+              </ul>
+            </div>
+            <div class="col" id="txt-learning">
+              <ul id="ul-learning-method">
+                <li>Video pembelajaran yang asyik</li>
+                <li>Materi bacaan</li>
+                <li>Kuis</li>
+              </ul>
+            </div>
+          </div>
+          <div class=" " id="hr"></div>
+          <div class="row row-cols-4 mt-4 mb-3" id="row-learing">
+            <div class="col" id="txt-learning">
+              <div id="wrap-text-new-update-h5">
+                <h5>PAKET</h5>
+                <div id="wrap-new-update">
+                  <div id="new-update">New Update</div>
                 </div>
+              </div>
             </div>
             <div class="col" id="txt-learning">
-                <ul id="ul-learning-method">
-                    <li>
-                        Lifetime Course Access
-                    </li>
-                    <li>
-                        Certificate Bootcamp
-                    </li>
-                    <li>
-                        Career Development Program
-                    </li>
-                    <li>
-                        English for Work Setting courses by Cakap
-                    </li>
-                    <li>
-                        Binar Labs (Internship Program)
-                    </li>
-                </ul>
+              <ul id="ul-learning-method">
+                <li>Lifetime Course Access</li>
+                <li>Certificate Bootcamp</li>
+                <li>Career Development Program</li>
+                <li>English for Work Setting courses by Cakap</li>
+                <li>Binar Labs (Internship Program)</li>
+              </ul>
             </div>
             <div class="col" id="txt-learning">
-                <ul id="ul-learning-method">
-                    <li>
-                        Learning Material
-                    </li>
-                    <li>
-                        Certificate Binar Insight / Binar 101
-                    </li>
-                </ul>
+              <ul id="ul-learning-method">
+                <li>Learning Material</li>
+                <li>Certificate Binar Insight / Binar 101</li>
+              </ul>
             </div>
             <div class="col" id="txt-learning">
-                <ul id="ul-learning-method">
-                    <li>
-                        Learning Video Format
-                    </li>
-                    <li>
-                        Certificate BinarGO
-                    </li>
-                </ul>
+              <ul id="ul-learning-method">
+                <li>Learning Video Format</li>
+                <li>Certificate BinarGO</li>
+              </ul>
             </div>
           </div>
-          <div class=" " id="hr"> </div>
+          <div class=" " id="hr"></div>
           <div class="row row-cols-4 mt-4" id="row-learing">
-            <div class="col" id="txt-learning" ></div>
-            <div class="col" id="txt-learning"><button type="button" class="btn btn-warning">Pelajari Lebih Lanjut</button></div>
-            <div class="col" id="txt-learning"><button type="button" class="btn btn-warning">Pelajari Lebih Lanjut</button></div>
-            <div class="col" id="txt-learning"><button type="button" class="btn btn-warning">Pelajari Lebih Lanjut</button></div>
+            <div class="col" id="txt-learning"></div>
+            <div class="col" id="txt-learning">
+              <button type="button" class="btn btn-warning">
+                Pelajari Lebih Lanjut
+              </button>
+            </div>
+            <div class="col" id="txt-learning">
+              <button type="button" class="btn btn-warning">
+                Pelajari Lebih Lanjut
+              </button>
+            </div>
+            <div class="col" id="txt-learning">
+              <button type="button" class="btn btn-warning">
+                Pelajari Lebih Lanjut
+              </button>
+            </div>
           </div>
           <!-- con -->
         </div>
       </section>
-  </section>
-<!-- [END Yoga] -->
-<!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
-<!-- RAFI -->
+    </main>
+    <!-- [END Yoga] -->
+    <!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- RAFI -->
     <section>
-        <!-- Page Home USPV2 Section -->
-        <section>
+      <!-- Page Home USPV2 Section -->
+      <section>
         <div class="page-home-uspv2-section">
-        <div class="page-home-uspv2-container w-container">
+          <div class="page-home-uspv2-container w-container">
             <div class="page-home-uspv2-div">
-                <h2 class="page-home-uspv2-heading">Jangkauan Students BINAR</h2>
-                <div class="page-home-map-container">
-                    <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 395.921875px, 622.25px" srcset="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201-p-500.png 500w, https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201-p-800.png 800w, https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201-p-1080.png 1080w, https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201-p-1600.png 1600w, https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201.png 1771w" alt=""><div class="page-home-map-div">
-                        <div class="page-home-map-div-inner left">
-                            <div class="page-home-map-text">37</div>
-                            <div class="text-block-91">provinsi di seluruh Indonesia</div>
-                        </div>
-                        <div class="page-home-map-div-inner">
-                            <div class="page-home-map-text">5</div><div class="page-home-map-text-desktop">negara negara lain seperti Australia, Jepang, US, Prancis, Belanda</div>
-                        </div>
+              <h2 class="page-home-uspv2-heading">Jangkauan Students BINAR</h2>
+              <div class="page-home-map-container">
+                <img
+                  src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201.png"
+                  loading="lazy"
+                  sizes="(max-width: 479px) 100vw, (max-width: 991px) 395.921875px, 622.25px"
+                  srcset="
+                    https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201-p-500.png   500w,
+                    https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201-p-800.png   800w,
+                    https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201-p-1080.png 1080w,
+                    https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201-p-1600.png 1600w,
+                    https://assets-global.website-files.com/5e70b9a791ceb781b605048c/65ce084efb89e72e1fe678fd_Peta%20-%20BIR%202023%201.png        1771w
+                  "
+                  alt=""
+                />
+                <div class="page-home-map-div">
+                  <div class="page-home-map-div-inner left">
+                    <div class="page-home-map-text">37</div>
+                    <div class="text-block-91">
+                      provinsi di seluruh Indonesia
                     </div>
+                  </div>
+                  <div class="page-home-map-div-inner">
+                    <div class="page-home-map-text">5</div>
+                    <div class="page-home-map-text-desktop">
+                      negara negara lain seperti Australia, Jepang, US, Prancis,
+                      Belanda
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    </section>
+      </section>
 
-    <!--Comp Eaf Section -->
-    <section>
-    <div class="comp-eaf-section">
-        <div class="comp-eaf-container w-container">
-            <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/6126fb3d46bf878fead5b9ab_Sertifikat%20EAFC%202021-framed.png" loading="lazy" sizes="100vw" srcset="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/6126fb3d46bf878fead5b9ab_Sertifikat%20EAFC%202021-framed-p-500.png 500w, https://assets-global.website-files.com/5e70b9a791ceb781b605048c/6126fb3d46bf878fead5b9ab_Sertifikat%20EAFC%202021-framed.png 1016w" alt="" class="comp-eaf-img">
+      <!--Comp Eaf Section -->
+      <section>
+        <div class="comp-eaf-section">
+          <div class="comp-eaf-container w-container">
+            <img
+              src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/6126fb3d46bf878fead5b9ab_Sertifikat%20EAFC%202021-framed.png"
+              loading="lazy"
+              sizes="100vw"
+              srcset="
+                https://assets-global.website-files.com/5e70b9a791ceb781b605048c/6126fb3d46bf878fead5b9ab_Sertifikat%20EAFC%202021-framed-p-500.png  500w,
+                https://assets-global.website-files.com/5e70b9a791ceb781b605048c/6126fb3d46bf878fead5b9ab_Sertifikat%20EAFC%202021-framed.png       1016w
+              "
+              alt=""
+              class="comp-eaf-img"
+            />
             <div class="comp-eaf-div">
-                <h2 class="comp-eaf-h2">Binar Memiliki Sertifikat Education Alliance Finland 2021</h2>
-                <p class="comp-eaf-para">Kurikulum Binar Bootcamp mendapatkan sertifikasi dari Education Alliance Finland (EAF), Keberhasilan ini didasari atas penilaian sempurna dari segi kualitas kurikulum, metode pembelajaran, pendekatan pengajaran kepada siswa, serta keselarasan kelas dengan kebutuhan industri, kini dan nanti.</p>
-                <a href="https://educationalliancefinland.com/products/binar-academy" class="comp-eaf-cta w-button">Pelajari Lebih Lanjut</a>
+              <h2 class="comp-eaf-h2">
+                Binar Memiliki Sertifikat Education Alliance Finland 2021
+              </h2>
+              <p class="comp-eaf-para">
+                Kurikulum Binar Bootcamp mendapatkan sertifikasi dari Education
+                Alliance Finland (EAF), Keberhasilan ini didasari atas penilaian
+                sempurna dari segi kualitas kurikulum, metode pembelajaran,
+                pendekatan pengajaran kepada siswa, serta keselarasan kelas
+                dengan kebutuhan industri, kini dan nanti.
+              </p>
+              <a
+                href="https://educationalliancefinland.com/products/binar-academy"
+                class="comp-eaf-cta w-button"
+                >Pelajari Lebih Lanjut</a
+              >
             </div>
+          </div>
         </div>
-    </div>
-    </section>
+      </section>
 
-    <!-- Page Home Looking For Job Section -->
-    <section>
-    <div class="page-home-looking-job-section">
-        <div class="page-home-container w-container">
+      <!-- Page Home Looking For Job Section -->
+      <section>
+        <div class="page-home-looking-job-section">
+          <div class="page-home-container w-container">
             <div class="w-layout-grid page-home-looking-job-grid">
-                <div class="page-home-looking-job-content">
-                    <h2 class="page-home-looking-job-heading">Perlu Dicariin Kerja?</h2>
-                    <h3 class="page-home-looking-job-description">Untuk alumni dan nonalumni, Binar punya banyak lowongan pekerjaan buat kamu.</h3>
-                    <div class="page-home-looking-job-button">
-                        <a href="https://www.linkedin.com/jobs/search/?currentJobId=3082199244&amp;geoId=102478259&amp;keywords=binar%20academy&amp;location=Indonesia&amp;refresh=true" class="binar-button-large-purple-primary w-button">Pelajari Lebih Lanjut</a>
-                    </div>
+              <div class="page-home-looking-job-content">
+                <h2 class="page-home-looking-job-heading">
+                  Perlu Dicariin Kerja?
+                </h2>
+                <h3 class="page-home-looking-job-description">
+                  Untuk alumni dan nonalumni, Binar punya banyak lowongan
+                  pekerjaan buat kamu.
+                </h3>
+                <div class="page-home-looking-job-button">
+                  <a
+                    href="https://www.linkedin.com/jobs/search/?currentJobId=3082199244&amp;geoId=102478259&amp;keywords=binar%20academy&amp;location=Indonesia&amp;refresh=true"
+                    class="binar-button-large-purple-primary w-button"
+                    >Pelajari Lebih Lanjut</a
+                  >
                 </div>
-                <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007dc00b098e3087c431_Hero%20image%20-%20homepage%201.png" loading="lazy" width="700" height="" alt="" srcset="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007dc00b098e3087c431_Hero%20image%20-%20homepage%201-p-500.png 500w, https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007dc00b098e3087c431_Hero%20image%20-%20homepage%201.png 719w" sizes="(max-width: 767px) 90vw, 621px" class="page-home-looking-job-image">
+              </div>
+              <img
+                src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007dc00b098e3087c431_Hero%20image%20-%20homepage%201.png"
+                loading="lazy"
+                width="700"
+                height=""
+                alt=""
+                srcset="
+                  https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007dc00b098e3087c431_Hero%20image%20-%20homepage%201-p-500.png 500w,
+                  https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007dc00b098e3087c431_Hero%20image%20-%20homepage%201.png       719w
+                "
+                sizes="(max-width: 767px) 90vw, 621px"
+                class="page-home-looking-job-image"
+              />
             </div>
+          </div>
         </div>
-    </div>
-    </section>
+      </section>
 
-    <!-- Page Home Mini Quiz -->
-    <section>
-    <div class="page-home-miniquiz-section">
-        <div class="home-container-miniquiz w-container">
+      <!-- Page Home Mini Quiz -->
+      <section>
+        <div class="page-home-miniquiz-section">
+          <div class="home-container-miniquiz w-container">
             <div class="home-div-miniquiz center">
-                <h2 class="binar-heading h2 title-mini-quiz">Kenali Potensi Quiz</h2>
-                <h3 class="heading-23 desc-mini-quiz">Mau tahu jalur karir yang cocok buat kamu? Yuk jawab beberapa pertanyaan ini!</h3>
-                <div class="mini-quiz-iframe-block">
-                    <div class="html-embed-9 w-embed w-iframe w-script">
-                        <div data-tf-widget="z6AGSea7" data-tf-iframe-props="title=Mini Quiz 3.0 - Website Homepage" data-tf-medium="snippet" style="width:100%;height:500px;position:absolute;" data-tf-disable-auto-focus="" data-tf-loaded="true">
-                            <div class="tf-v1-widget" data-testid="tf-v1-widget">
-                                <iframe src="https://form.typeform.com/to/z6AGSea7?typeform-embed-id=029317869500283367&amp;typeform-embed=embed-widget&amp;typeform-source=binaracademy.com&amp;typeform-medium=snippet&amp;typeform-medium-version=next&amp;typeform-embed-handles-redirect=1&amp;typeform-embed-no-heading=true" data-testid="iframe" allow="microphone; camera" title="Mini Quiz 3.0 - Website Homepage" style="border: 0px; transform: translateZ(0px);">
-                                </iframe>
-                            </div>
-                        </div>
-                        <script src="//embed.typeform.com/next/embed.js"></script>
+              <h2 class="binar-heading h2 title-mini-quiz">
+                Kenali Potensi Quiz
+              </h2>
+              <h3 class="heading-23 desc-mini-quiz">
+                Mau tahu jalur karir yang cocok buat kamu? Yuk jawab beberapa
+                pertanyaan ini!
+              </h3>
+              <div class="mini-quiz-iframe-block">
+                <div class="html-embed-9 w-embed w-iframe w-script">
+                  <div
+                    data-tf-widget="z6AGSea7"
+                    data-tf-iframe-props="title=Mini Quiz 3.0 - Website Homepage"
+                    data-tf-medium="snippet"
+                    style="width: 100%; height: 500px; position: absolute"
+                    data-tf-disable-auto-focus=""
+                    data-tf-loaded="true"
+                  >
+                    <div class="tf-v1-widget" data-testid="tf-v1-widget">
+                      <iframe
+                        src="https://form.typeform.com/to/z6AGSea7?typeform-embed-id=029317869500283367&amp;typeform-embed=embed-widget&amp;typeform-source=binaracademy.com&amp;typeform-medium=snippet&amp;typeform-medium-version=next&amp;typeform-embed-handles-redirect=1&amp;typeform-embed-no-heading=true"
+                        data-testid="iframe"
+                        allow="microphone; camera"
+                        title="Mini Quiz 3.0 - Website Homepage"
+                        style="border: 0px; transform: translateZ(0px)"
+                      >
+                      </iframe>
                     </div>
+                  </div>
+                  <script src="//embed.typeform.com/next/embed.js"></script>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    </section>
+      </section>
 
-    <!-- Page Home Alumni Section -->
-    <section>
-    <div class="page-home-alumni-section">
-        <div class="home-container-alumni-stories w-container">
+      <!-- Page Home Alumni Section -->
+      <section>
+        <div class="page-home-alumni-section">
+          <div class="home-container-alumni-stories w-container">
             <div class="home-div-alumni-stories center">
-                <h2 class="page-home-alumni-heading">Apa Kata Mereka?</h2>
-                <h3 class="page-home-alumni-sub-heading">Mereka sudah merasakan serunya belajar skill digital dan meraih karier yang mereka inginkan. <br> Kamu selanjutnya?</h3>
-                <div class="w-layout-grid page-home-alumni-grid">
-                    <div id="w-node-_19c14bcd-7a3a-41f0-c87d-ba0bbc027975-ec9a9453" class="page-home-alumni-card">
-                        <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/622942be3ce1e18cea02e607_Quote.svg" loading="lazy" alt="">
-                        <p class="page-home-alumni-testimony">
-                            <span class="page-home-alumni-testimony-bold">Bootcamp di Binar</span> memberikan pengalaman 
-                            <span class="page-home-alumni-testimony-bold">melatih skills digital</span> yang berbeda. 
-                            <span class="page-home-alumni-testimony-bold">Kurikulum </span>yang dirancang 
-                            <span class="page-home-alumni-testimony-bold">sesuai kebutuhan industri</span> dan kerja sama tim yang apik di project tugas akhirnya. Ditambah, peran Job Connect yang selalu siap membantuku hingga berlabuh di LingoTalk. Thanks, Binar! “</p>
-                            <div class="page-home-alumni-profile">
-                                <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62e92ae7c41245b2789bc0fc_Photo%20Profile%20Alumni%20Muhammad%20Fadli%20Auliyufliha%20Rounded.png" loading="lazy" alt="" class="page-home-alumni-profile-photo">
-                                <div class="page-home-alumni-profile-detail">
-                                    <div class="page-home-alumni-name">Muhammad Fadli Auliyufliha</div>
-                                    <div>UI/UX Wave 10</div>
-                                    <div>UI Illustrator Intern at lingo talk</div>
-                                </div>
-                            </div>
+              <h2 class="page-home-alumni-heading">Apa Kata Mereka?</h2>
+              <h3 class="page-home-alumni-sub-heading">
+                Mereka sudah merasakan serunya belajar skill digital dan meraih
+                karier yang mereka inginkan. <br />
+                Kamu selanjutnya?
+              </h3>
+              <div class="w-layout-grid page-home-alumni-grid">
+                <div
+                  id="w-node-_19c14bcd-7a3a-41f0-c87d-ba0bbc027975-ec9a9453"
+                  class="page-home-alumni-card"
+                >
+                  <img
+                    src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/622942be3ce1e18cea02e607_Quote.svg"
+                    loading="lazy"
+                    alt=""
+                  />
+                  <p class="page-home-alumni-testimony">
+                    <span class="page-home-alumni-testimony-bold"
+                      >Bootcamp di Binar</span
+                    >
+                    memberikan pengalaman
+                    <span class="page-home-alumni-testimony-bold"
+                      >melatih skills digital</span
+                    >
+                    yang berbeda.
+                    <span class="page-home-alumni-testimony-bold"
+                      >Kurikulum </span
+                    >yang dirancang
+                    <span class="page-home-alumni-testimony-bold"
+                      >sesuai kebutuhan industri</span
+                    >
+                    dan kerja sama tim yang apik di project tugas akhirnya.
+                    Ditambah, peran Job Connect yang selalu siap membantuku
+                    hingga berlabuh di LingoTalk. Thanks, Binar! “
+                  </p>
+                  <div class="page-home-alumni-profile">
+                    <img
+                      src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62e92ae7c41245b2789bc0fc_Photo%20Profile%20Alumni%20Muhammad%20Fadli%20Auliyufliha%20Rounded.png"
+                      loading="lazy"
+                      alt=""
+                      class="page-home-alumni-profile-photo"
+                    />
+                    <div class="page-home-alumni-profile-detail">
+                      <div class="page-home-alumni-name">
+                        Muhammad Fadli Auliyufliha
+                      </div>
+                      <div>UI/UX Wave 10</div>
+                      <div>UI Illustrator Intern at lingo talk</div>
                     </div>
-                        <div id="w-node-_0c5b63e0-0e47-aca9-b61f-d47b3cd292f0-ec9a9453" class="page-home-alumni-card">
-                            <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/622942be3ce1e18cea02e607_Quote.svg" loading="lazy" alt="">
-                            <p class="page-home-alumni-testimony">Kurikulum yang diberikan oleh binar sudah sangat tepat, 
-                                <span class="page-home-alumni-testimony-bold">facilitator dan student bisa dengan mudah mengikuti kurikulum</span>. Tim yang mensupport untuk facilitator juga bagus banget, jadi semua kebutuhan dan keperluan facilitator seperti penilaian dan lain2 sudah di support dengan sangat baik.</p>
-                                <div class="page-home-alumni-profile">
-                                    <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62e92ae7f1696621bae5a3a3_Photo%20Profile%20Alumni%20Muhammad%20Zaky%20Rounded.png" loading="lazy" alt="" class="page-home-alumni-profile-photo">
-                                    <div class="page-home-alumni-profile-detail">
-                                        <div class="page-home-alumni-name">Muhammad Zaky</div>
-                                        <div>Facil Full Stack Web Wave 9</div>
-                                        <div>Senior Software Engineer at Hukumonline</div>
-                                    </div>
-                                </div>
-                        </div>
-                            <div id="w-node-_9d154bcc-74e4-81e6-6942-fe0ce8d0f56a-ec9a9453" class="page-home-alumni-card">
-                                <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/622942be3ce1e18cea02e607_Quote.svg" loading="lazy" alt="">
-                                <p class="page-home-alumni-testimony">
-                                    <span class="page-home-alumni-testimony-bold">Course</span> ini dibuat berdasarkan pengalaman di industri, sehingga 
-                                    <span class="page-home-alumni-testimony-bold">benar-benar merepresen - tasikan</span> bagaimana cara kerja seorang BI. Semoga course ini dapat menjadi panduan bagi teman-teman yang tertarik dengan dunia data dan BI.</p>
-                                    <div class="page-home-alumni-profile">
-                                        <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62e92aeb41947bd76ba1551b_Photo%20Profile%20Alumni%20Tantiny%20Tanjung%20Rounded.png" loading="lazy" alt="" class="page-home-alumni-profile-photo">
-                                        <div class="page-home-alumni-profile-detail">
-                                            <div class="page-home-alumni-name">Tantiny Tanjung</div>
-                                            <div>Subject Matter Expert Business Intelligence Bootcamp</div>
-                                            <div>Senior Data &amp; AI Deloitte Consulting</div>
-                                        </div>
-                                    </div>
-                            </div>
+                  </div>
                 </div>
+                <div
+                  id="w-node-_0c5b63e0-0e47-aca9-b61f-d47b3cd292f0-ec9a9453"
+                  class="page-home-alumni-card"
+                >
+                  <img
+                    src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/622942be3ce1e18cea02e607_Quote.svg"
+                    loading="lazy"
+                    alt=""
+                  />
+                  <p class="page-home-alumni-testimony">
+                    Kurikulum yang diberikan oleh binar sudah sangat tepat,
+                    <span class="page-home-alumni-testimony-bold"
+                      >facilitator dan student bisa dengan mudah mengikuti
+                      kurikulum</span
+                    >. Tim yang mensupport untuk facilitator juga bagus banget,
+                    jadi semua kebutuhan dan keperluan facilitator seperti
+                    penilaian dan lain2 sudah di support dengan sangat baik.
+                  </p>
+                  <div class="page-home-alumni-profile">
+                    <img
+                      src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62e92ae7f1696621bae5a3a3_Photo%20Profile%20Alumni%20Muhammad%20Zaky%20Rounded.png"
+                      loading="lazy"
+                      alt=""
+                      class="page-home-alumni-profile-photo"
+                    />
+                    <div class="page-home-alumni-profile-detail">
+                      <div class="page-home-alumni-name">Muhammad Zaky</div>
+                      <div>Facil Full Stack Web Wave 9</div>
+                      <div>Senior Software Engineer at Hukumonline</div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="w-node-_9d154bcc-74e4-81e6-6942-fe0ce8d0f56a-ec9a9453"
+                  class="page-home-alumni-card"
+                >
+                  <img
+                    src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/622942be3ce1e18cea02e607_Quote.svg"
+                    loading="lazy"
+                    alt=""
+                  />
+                  <p class="page-home-alumni-testimony">
+                    <span class="page-home-alumni-testimony-bold">Course</span>
+                    ini dibuat berdasarkan pengalaman di industri, sehingga
+                    <span class="page-home-alumni-testimony-bold"
+                      >benar-benar merepresen - tasikan</span
+                    >
+                    bagaimana cara kerja seorang BI. Semoga course ini dapat
+                    menjadi panduan bagi teman-teman yang tertarik dengan dunia
+                    data dan BI.
+                  </p>
+                  <div class="page-home-alumni-profile">
+                    <img
+                      src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62e92aeb41947bd76ba1551b_Photo%20Profile%20Alumni%20Tantiny%20Tanjung%20Rounded.png"
+                      loading="lazy"
+                      alt=""
+                      class="page-home-alumni-profile-photo"
+                    />
+                    <div class="page-home-alumni-profile-detail">
+                      <div class="page-home-alumni-name">Tantiny Tanjung</div>
+                      <div>
+                        Subject Matter Expert Business Intelligence Bootcamp
+                      </div>
+                      <div>Senior Data &amp; AI Deloitte Consulting</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </section>
+    </section>
+    <!-- END RAFI -->
+
+    <!-- [Rizki] - [Bagian Whatsapp Flying Button] -->
+    <div id="whatsapp">
+      <a href="https://web.whatsapp.com/"
+        ><img src="assets/images/whatsappMonochrome.svg" alt="Whatsapp"
+      /></a>
     </div>
-    </section>
-    </section>
-<!-- END RAFI -->
-
-    <section></section>
-    <section></section>
-    <section></section>
-
-    <section></section>
-    <section></section>
-    <section></section>
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

@@ -1,24 +1,123 @@
-
 /* ------------------------------------------------------------------------------------------------- */
 /* Yoga */
 /* Include section: carousel1, jelajahi course, metode belajar */
 /* carousel */
-#carousel-body{
+#carousel-body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px;
-  width: 97%;     
+  width: 97%;
   margin-left: 26px;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
+
+/* [Rizki - Start] */
+html {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+a,
+a * {
+  color: #933393 !important;
+}
+
+header {
+  z-index: 999;
+  min-height: 72px;
+}
+
+.nav-link,
+.my-learning,
+.shortinfo-section-heading,
+.item-highlight {
+  color: #933393 !important;
+  font-weight: 700 !important;
+}
+
+.fa {
+  margin-right: 0.5rem;
+}
+
+.my-learning {
+  background-color: #933393 !important;
+  padding: 0.75rem 0 !important;
+}
+
+#hero-section {
+  background-image: linear-gradient(70deg, #761a79, #9f27a3);
+  position: relative;
+}
+
+.hero-section-heading {
+  line-height: 80px;
+  font-size: 50px;
+  margin-bottom: 32px;
+}
+
+.hero-section-direction .row {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero-section-direction .row a {
+  background-color: #f99d1c;
+}
+
+.shortinfo-section-subtitle {
+  font-size: 18px;
+  color: #696969;
+  margin-bottom: 48px;
+  line-height: 26px;
+}
+
+#download_report {
+  border: 1px solid #933393;
+  display: inline-flex;
+  box-sizing: border-box;
+  margin-top: 3rem;
+}
+
+#download_report img {
+  vertical-align: middle;
+}
+
+#download_report h5 {
+  margin: 0;
+}
+
+#whatsapp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: block;
+  z-index: 99;
+}
+
+#whatsapp a {
+  width: 56px;
+  height: 56px;
+  background-color: #0eaf59;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#whatsapp a img {
+  width: 24px;
+  height: 24px;
+}
+/* [Rizki - End]  */
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   display: inline-block;
-  width: 3rem!important;
-  height: 3rem!important;
+  width: 3rem !important;
+  height: 3rem !important;
   border-radius: 50%;
 }
 
 /* course card */
-#course-section{
-  margin-top: 100px
+#course-section {
+  margin-top: 100px;
 }
 /* owl carousel */
 #btn-carousel {
@@ -35,7 +134,7 @@
   margin-top: 40px;
 }
 .my-owl-nav span {
-  background:#eaeaea;
+  background: #eaeaea;
   padding: 20px;
   margin: 0 4px;
 }
@@ -45,30 +144,30 @@
 }
 /* end owl carousel */
 
-#course-card{
-  height: 100%;;
+#course-card {
+  height: 100%;
   border: none;
 }
-.card-title{
+.card-title {
   font-size: 18px;
   margin-top: 8px;
   margin-bottom: 16px !important;
   line-height: 22px;
   color: white !important;
 }
-.card-text{
+.card-text {
   font-size: 16px;
   line-height: 24px;
   color: white;
 }
-.course-date{
+.course-date {
   align-items: center;
   display: flex;
 }
-.course-date img{
+.course-date img {
   padding-bottom: 12px;
 }
-.course-date p{
+.course-date p {
   color: #f99d1c;
   align-items: center;
   padding-top: 2px;
@@ -77,10 +176,10 @@
   font-weight: 700;
   line-height: 17px;
 }
-.card{
+.card {
   border: none !important;
 }
-#web-binar{
+#web-binar {
   background-color: #f99d1c;
   color: black;
   padding: 8px 16px;
@@ -88,54 +187,54 @@
   font-weight: 700;
   line-height: 17px;
 }
-.card img{
+.card img {
   border-radius: 12px 12px 0 0;
 }
-.card-price{
-  color:#f99d1c;
+.card-price {
+  color: #f99d1c;
   margin-top: auto;
   padding-top: 10px;
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
 }
-.disc{
+.disc {
   color: #a6a6a6;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   text-decoration: line-through;
 }
-.card-body{
+.card-body {
   background-color: #4a194a;
   color: white;
-  border-radius: 0 0 12px 12px ;
+  border-radius: 0 0 12px 12px;
 }
 
 /* end course card */
 
 /* learning method */
-#ul-learning-method{
+#ul-learning-method {
   margin: 0;
   padding: 10px;
 }
-#learning-method-section{
+#learning-method-section {
   background-color: #77287d;
 }
-#learning-method-section p{
+#learning-method-section p {
   color: white;
 }
-#img-learning img{
+#img-learning img {
   max-width: 200px;
   max-height: 40px;
 }
-#txt-learning{
+#txt-learning {
   color: white;
 }
-#wrap-text-new-update-h5{
+#wrap-text-new-update-h5 {
   display: flex;
 }
-#wrap-new-update{
+#wrap-new-update {
   background-color: #009db1;
   border-radius: 9999px;
   height: 16px;
@@ -146,12 +245,12 @@
   padding: 2px 5px;
   display: flex;
 }
-#new-update{
+#new-update {
   font-size: 10px;
   font-weight: 600;
   line-height: 12px;
 }
-#hr{
+#hr {
   border-top: 3px solid #e9d6e9;
 }
 /* end learning method */
@@ -164,7 +263,6 @@
 .page-home-uspv2-section {
   display: block;
 }
-
 
 .page-home-uspv2-div {
   flex-direction: column;
@@ -244,7 +342,8 @@
   margin-right: auto;
 }
 
-.w-container:before, .w-container:after {
+.w-container:before,
+.w-container:after {
   content: " ";
   grid-area: 1/1/2/2;
   display: table;
@@ -261,7 +360,8 @@
 .w-container:after {
   clear: both;
 }
-.w-container:before, .w-container:after {
+.w-container:before,
+.w-container:after {
   content: " ";
   grid-area: 1/1/2/2;
   display: table;
@@ -299,12 +399,12 @@
   border-radius: 8px;
   margin-top: 24px;
   padding: 17px 24px;
-  font-family: Causten semi,sans-serif;
+  font-family: Causten semi, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
   text-decoration: none;
-  transition: all .2s;
+  transition: all 0.2s;
   display: inline-block;
 }
 .w-button {
@@ -355,7 +455,7 @@
   line-height: 54px;
 }
 
-.page-home-looking-job-heading h2{
+.page-home-looking-job-heading h2 {
   font-weight: 700;
 }
 
@@ -378,12 +478,12 @@
   text-align: center;
   border-radius: 8px;
   padding: 17px 24px;
-  font-family: Causten semi,sans-serif;
+  font-family: Causten semi, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
   text-decoration: none;
-  transition: all .2s;
+  transition: all 0.2s;
   display: inline-block;
 }
 
@@ -391,7 +491,7 @@
   width: 621px;
 }
 
-.page-home-looking-job-image img{
+.page-home-looking-job-image img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
@@ -454,7 +554,7 @@
 .binar-heading.h2 {
   text-align: center;
   margin-bottom: 10px;
-  font-family: Causten semi,sans-serif;
+  font-family: Causten semi, sans-serif;
   font-size: 36px;
   line-height: 54px;
   display: block;
@@ -555,7 +655,7 @@
   line-height: 54px;
 }
 
-.page-home-alumni-heading h2{
+.page-home-alumni-heading h2 {
   font-weight: 700;
 }
 
@@ -584,10 +684,10 @@
   align-items: flex-start;
   padding: 32px;
   display: flex;
-  box-shadow: 4px 4px 24px rgba(224,224,224,.35);
+  box-shadow: 4px 4px 24px rgba(224, 224, 224, 0.35);
 }
 
-.page-home-alumni-card img{
+.page-home-alumni-card img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
@@ -600,7 +700,7 @@
   line-height: 24px;
 }
 
-.page-home-alumni-testimony p{
+.page-home-alumni-testimony p {
   margin-bottom: 10px;
 }
 
@@ -620,7 +720,7 @@
   width: 64px;
 }
 
-.page-home-alumni-profile-photo img{
+.page-home-alumni-profile-photo img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
