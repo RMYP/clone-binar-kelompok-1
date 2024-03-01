@@ -31,13 +31,22 @@ header {
 }
 
 #hero-section {
-  background-image: linear-gradient(70deg, #761a79, #9f27a3), url();
+  background-image: linear-gradient(70deg, #761a79, #9f27a3);
+  position: relative;
 }
 
 .hero-section-heading {
   line-height: 80px;
   font-size: 50px;
   margin-bottom: 32px;
+}
+
+.hero-section-direction .row {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero-section-direction .row a {
+  background-color: #f99d1c;
 }
 
 .shortinfo-section-subtitle {
