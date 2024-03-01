@@ -45,6 +45,13 @@ header {
 #hero-section {
   background-image: linear-gradient(70deg, #761a79, #9f27a3);
   position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.transparant-logo {
+  bottom: -100px;
+  right: -200px;
 }
 
 .hero-section-heading {
@@ -472,8 +479,6 @@ header {
   display: inline-block;
 }
 
-
-
 .page-home-looking-job-image {
   width: 621px;
 }
@@ -735,7 +740,6 @@ header {
   background-color: black;
 }
 
-
 .w-container {
   max-width: 940px;
   margin-left: auto;
@@ -839,7 +843,6 @@ a {
   background-color: black;
 }
 
-
 .w-container {
   max-width: 940px;
   margin-left: auto;
@@ -897,7 +900,6 @@ a {
   text-decoration: underline;
   background-color: transparent;
 }
-
 
 /*speaker section  */
 .symbol-speakers-section {
@@ -972,7 +974,7 @@ a {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  transition: all .2s;
+  transition: all 0.2s;
   display: flex;
   overflow: hidden;
 }
@@ -1033,7 +1035,7 @@ a {
 
 .symbol-speakers-popup {
   z-index: 9998;
-  background-color: rgba(10, 10, 10, .75);
+  background-color: rgba(10, 10, 10, 0.75);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1288,7 +1290,7 @@ a {
   font-weight: 700;
   line-height: 22px;
   text-decoration: none;
-  transition: all .2s;
+  transition: all 0.2s;
   display: inline-block;
 }
 
@@ -1328,7 +1330,7 @@ a {
   font-weight: 700;
   line-height: 22px;
   text-decoration: none;
-  transition: all .2s;
+  transition: all 0.2s;
   display: inline-block;
 }
 
@@ -1369,7 +1371,6 @@ a {
   padding-top: 64px;
   padding-bottom: 64px;
   display: flex;
-  
 }
 .page-home-teach-heading {
   color: var(--solid-black);
@@ -1388,17 +1389,17 @@ a {
 }
 
 /* Button */
-#btn-lihat-selengkapnya{
+#btn-lihat-selengkapnya {
   background-color: #933393;
   text-align: center;
   border-radius: 8px;
   padding: 17px 24px;
-  font-family: Causten semi,sans-serif;
+  font-family: Causten semi, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
   text-decoration: none;
-  transition: all .2s;
+  transition: all 0.2s;
   display: inline-block;
 }
 
@@ -1414,32 +1415,31 @@ a {
 }
 
 /* Carusel */
-.carousel{
-	background-color: #f1f3ff;
+.carousel {
+  background-color: #f1f3ff;
   width: 90%;
 }
-#text-carousel{
+#text-carousel {
   color: #933393;
   margin-bottom: 20px;
   margin-top: 40px;
 }
-.featurette{
+.featurette {
   align-items: center;
 }
 
-#carousel-inner-news{
+#carousel-inner-news {
   background-color: transparent;
 }
 .carousel-control-prev-icon {
-	background-image: url("../assets/images/Vector-kanan.svg");
+  background-image: url("../assets/images/Vector-kanan.svg");
 }
 .carousel-control-next-icon {
-background-image: url("../assets/images/Vector.svg");
+  background-image: url("../assets/images/Vector.svg");
 }
 
-
 /* join */
-.hubungi-kami{
+.hubungi-kami {
   margin-top: 100px;
   background-color: #e9d6e9;
   flex-direction: row;
@@ -1519,7 +1519,7 @@ a {
   font-weight: 700;
   line-height: 20px;
 }
-.kontribusi{
+.kontribusi {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
 }
@@ -1563,7 +1563,7 @@ a {
   width: 100%;
   grid-column-gap: 8px;
   grid-row-gap: 8px;
-  grid-template: "Area Area-2 Area-3 Area-4 Area-5"3fr/1fr auto auto auto auto;
+  grid-template: "Area Area-2 Area-3 Area-4 Area-5" 3fr/1fr auto auto auto auto;
   grid-auto-flow: column;
   align-items: center;
   justify-content: space-between;
@@ -1572,7 +1572,7 @@ a {
   justify-content: flex-end;
   display: flex;
 }
-#footer{
+#footer {
   background-color: #ededed;
 }
 /* Tegas END CSS */
