@@ -1,8 +1,171 @@
+=======
+/* ------------------------------------------------------------------------------------------------- */
+/* Yoga */
+/* Include section: carousel1, jelajahi course, metode belajar */
+/* carousel */
+
+#carousel-body{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  width: 97%;     
+  margin-left: 26px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 3rem!important;
+  height: 3rem!important;
+  border-radius: 50%;
+}
+
+/* course card */
+#course-section{
+  margin-top: 100px
+}
+/* owl carousel */
+#btn-carousel {
+  border: 1px solid #77287d;
+  color: #77287d;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.my-owl-nav {
+  margin-top: 40px;
+}
+.my-owl-nav span {
+  background:#eaeaea;
+  padding: 20px;
+  margin: 0 4px;
+}
+
+.my-owl-nav span:hover {
+  cursor: pointer;
+}
+/* end owl carousel */
+
+#course-card{
+  height: 100%;;
+  border: none;
+}
+.card-title{
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 16px !important;
+  line-height: 22px;
+  color: white !important;
+}
+.card-text{
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+.course-date{
+  align-items: center;
+  display: flex;
+}
+.course-date img{
+  padding-bottom: 12px;
+}
+.course-date p{
+  color: #f99d1c;
+  align-items: center;
+  padding-top: 2px;
+  padding-left: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+.card{
+  border: none !important;
+}
+#web-binar{
+  background-color: #f99d1c;
+  color: black;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+.card img{
+  border-radius: 12px 12px 0 0;
+}
+.card-price{
+  color:#f99d1c;
+  margin-top: auto;
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.disc{
+  color: #a6a6a6;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: line-through;
+}
+.card-body{
+  background-color: #4a194a;
+  color: white;
+  border-radius: 0 0 12px 12px ;
+}
+
+/* end course card */
+
+/* learning method */
+#ul-learning-method{
+  margin: 0;
+  padding: 10px;
+}
+#learning-method-section{
+  background-color: #77287d;
+}
+#learning-method-section p{
+  color: white;
+}
+#img-learning img{
+  max-width: 200px;
+  max-height: 40px;
+}
+#txt-learning{
+  color: white;
+}
+#wrap-text-new-update-h5{
+  display: flex;
+}
+#wrap-new-update{
+  background-color: #009db1;
+  border-radius: 9999px;
+  height: 16px;
+  width: 66x;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  padding: 2px 5px;
+  display: flex;
+}
+#new-update{
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12px;
+}
+#hr{
+  border-top: 3px solid #e9d6e9;
+}
+/* end learning method */
+/* END */
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* RAFI */
 /* Page Home Uspv2 Section */
 
 .page-home-uspv2-section {
   display: block;
 }
+
 
 .page-home-uspv2-div {
   flex-direction: column;
@@ -478,3 +641,4 @@
   font-weight: 700;
   line-height: 21px;
 }
+/* END RAFI */
