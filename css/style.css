@@ -3,15 +3,29 @@ html {
   scroll-behavior: smooth;
 }
 
+a,
+a * {
+  color: #933393 !important;
+}
+
 header {
   z-index: 999;
   min-height: 72px;
 }
 
-.nav-link {
+.nav-link,
+.my-learning,
+.shortinfo-section-heading {
   color: #933393 !important;
-  font-size: 1rem !important;
   font-weight: 700 !important;
+}
+
+.fa {
+  margin-right: 0.5rem;
+}
+
+.nav-link {
+  font-size: 1rem !important;
 }
 
 .my-learning {
@@ -21,13 +35,40 @@ header {
 
 #hero-section {
   background-image: linear-gradient(70deg, #761a79, #9f27a3), url();
-  height: 100vh;
+}
+
+.hero-section-heading {
+  line-height: 80px;
+  font-size: 50px;
+  margin-bottom: 32px;
+}
+
+.shortinfo-section-subtitle {
+  font-size: 18px;
+  color: #696969;
+  margin-bottom: 48px;
+  line-height: 26px;
+}
+
+#download_report {
+  border: 1px solid #933393;
+  font-weight: 600;
+  display: inline-flex;
+  box-sizing: border-box;
+}
+
+#download_report img {
+  vertical-align: middle;
+}
+
+#download_report h5 {
+  margin: 0;
 }
 
 #whatsapp {
   position: fixed;
   bottom: 40px;
-  right: 20px;
+  right: 40px;
   display: block;
   z-index: 99;
 }
